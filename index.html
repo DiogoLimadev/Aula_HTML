@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula HTML</title>
+</head>
+<body class="mode">
+
+    <style>
+        body {
+            background-color: rgb(215, 236, 250);
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           color: rgb(9, 9, 9);
+        }
+        .mode {
+            background-color: rgb(60, 218, 194);
+        }
+
+        button  {
+            background-color: rgb(220, 200, 200);
+          }
+
+
+    </style>
+    <!-- esse é o conteudo principal  -->
+    <main>
+        
+        <button onclick="mudarTema()">alterar tema</button>
+
+        <h1>Desenvolvimento web</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Dolores quod at sapiente impedit officiis animi in iusto quos fuga maiores natus tempora, expedita porro tempore distinctio cupiditate doloremque! Sint, optio.</p>
+
+         <h2>HTML - Linguagem de Marcação de hipertexto </h2>
+        Essa é a minha imagem, html! 
+         <p></p>
+         <p></p>
+         
+
+         <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original" alt=" icone html " width="100" height="100">
+
+    </main>
+    <script>
+
+        // esse e um comentario 
+        function mudarTema() {
+            document.body.classList.toggle('mode')
+        }
+  
+    </script>
+    <!-- esse e um comentario  -->
+  
+
+ 
+    
+    
+</body>
+</html>
